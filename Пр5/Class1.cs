@@ -37,11 +37,8 @@ namespace Пр5
                 min = Convert.ToInt32(dataGridView1[0, j].Value);
                 for (int i = 0; i < dataGridView1.ColumnCount; i++)
                 {
-                    if (Convert.ToInt32(dataGridView1[i, j].Value) <= min)
-                    {
-                        min = Convert.ToInt32(dataGridView1[i, j].Value);
-                        dataGridView1[i,j].Value = min;
-                    }
+                   
+
                 }
             }
         }
